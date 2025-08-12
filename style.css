@@ -11,6 +11,10 @@ body {
    list-style: none;
  }
 
+ h1,h2,h3,h4,h5,h6,p {
+   margin: 0;
+ }
+
  img {
    display: block;
  }
@@ -22,8 +26,6 @@ body {
  }
 
  .hero-banner {
-     margin-top: 24px;
-     margin-bottom: 22.5px;
    border-bottom: 1px solid #e7e9fc;
  }
 
@@ -67,6 +69,7 @@ body {
      color: #2e2f42;
      text-decoration: none;
       padding: 24px 0;
+    display: block;
   }
 
   .banner-link:hover,
@@ -140,6 +143,7 @@ body {
      background-color: #2e2f42;
      color: #fff;
      padding: 188px 0;
+     text-align: center;
  }
 
  .title {
@@ -249,11 +253,6 @@ body {
 
  .img-name {
     background-color: #FFFFFF;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
    width: calc((100% - 72px) / 4);
    border-radius: 0px 0px 4px 4px;
 
@@ -273,7 +272,6 @@ body {
 
 
  .img-benefits {
-     margin-bottom: 32px;
  }
 
  .title-name {
@@ -309,16 +307,7 @@ body {
  }
 
  .portfolio-li {
-  /* width: calc((100% - 48px) / 3);
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px; */
-
       width: calc((100% - 48px) / 3);
-      box-sizing: border-box;
-      padding: 32px 16px;
-      border: 1px solid #e7e9fc;
  }
 
  .portfolio-container {
@@ -333,7 +322,6 @@ body {
  }
 
  .directly {
-     margin-bottom: 8px;
     width: calc((100% - 48px) / 3);
  }
 
@@ -355,11 +343,6 @@ body {
 
  .footer {
      background-color: #2e2f42;
-     color: #fff;
-     margin-top: 130px;
-    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
    padding: 100px 0;
  }
 
@@ -373,6 +356,7 @@ body {
         color: #4d5ae5;
       display: inline-block;
       margin-bottom: 16px;
+      text-decoration: none;
  }
 
  .footer-studio {
@@ -380,8 +364,7 @@ body {
  }
 
  .footer-text {
-     margin-top: 16px;
-     margin-bottom: 100px;
-   max-width: 264px
+   max-width: 264px;
+   font-style: normal;
  }
 
